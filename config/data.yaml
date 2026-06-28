@@ -1,0 +1,12 @@
+path: data/processed/final_dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: car
+  1: truck
+  2: pedestrian
+  3: traffic_light
+  4: traffic_sign

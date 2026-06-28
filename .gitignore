@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and dependencies
+.env
+.venv
+env/
+venv/
+ENV/
+requirements.txt.bak
+
+# Large Data and Model Weights
+data/
+datasets/
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# IDEs, Editors, and OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Execution outputs and experiment logs
+logs/
+runs/
+wandb/
